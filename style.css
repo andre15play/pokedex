@@ -1,0 +1,87 @@
+/* ======== ESTILO GERAL ======== */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: #eaf3fc; /* azul bem claro no fundo */
+  margin: 0;
+  padding: 0;
+}
+
+/* ======== TÍTULO ======== */
+h1 {
+  background-color: #1e88e5; /* azul principal */
+  color: white;
+  padding: 20px;
+  margin: 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* ======== ÁREA DE BUSCA ======== */
+.container {
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+input {
+  padding: 10px;
+  width: 220px;
+  border-radius: 6px;
+  border: 1px solid #90caf9;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #1565c0;
+  box-shadow: 0 0 5px #64b5f6;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: #1565c0;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #0d47a1;
+}
+
+/* ======== CARD DE RESULTADO ======== */
+.card {
+  margin: 20px auto;
+  width: 260px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(33, 150, 243, 0.3);
+  padding: 20px;
+  text-align: center;
+}
+
+.card h2 {
+  color: #1565c0;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 16px;
+  color: #333;
+}
+
+strong {
+  color: #1565c0;
+}
